@@ -68,3 +68,16 @@ h1
     transform-style: preserve-3d;
     perspective: 500px;
 }
+
+.item 
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: aliceblue;
+    transition: 0,25s;
+}
