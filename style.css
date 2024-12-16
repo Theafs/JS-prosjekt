@@ -1,9 +1,69 @@
-* {
+* 
+{
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
 
-img {
+img 
+{
     width: 100%;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightpink;
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: pink;
+    padding: 40px 60px;
+}
+
+h1
+{
+    font-size: 50px;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.nystart 
+{
+    padding: 15px 20px;
+    color: black;
+    background-color: aliceblue;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nystart:focus
+{
+    color: palevioletred;
+    background-color: pink;
+}
+
+.spill 
+{
+    width: 440px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
 }
