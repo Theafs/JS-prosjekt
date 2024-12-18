@@ -80,7 +80,7 @@ h1
     font-size: 40px;
     background-color: aliceblue;
     transform: rotateY(180deg);
-    transition: 0,25s;
+    transition: 0.5s;
 }
 
 .item.boxOpen
@@ -94,7 +94,7 @@ h1
     position: absolute;
     inset: 0;
     background-color: rgb(235, 66, 176);
-    transition: 0,5s;
+    transition: 1s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
 }
