@@ -29,7 +29,19 @@ body
     gap: 30px;
     background-color: pink;
     padding: 40px 60px;
+    
 }
+.klikkcontainer
+{
+    font-size: 10px;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+    background-color: pink;
+    border: 2px solid rgb(235, 66, 176);
+}
+
+
 
 h1
 {
