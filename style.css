@@ -51,6 +51,13 @@ h1
     letter-spacing: 3px;
 }
 
+.vinner {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(220, 147, 220);
+}
+
 .nystart 
 {
     padding: 15px 20px;
